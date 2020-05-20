@@ -1,12 +1,7 @@
 <html>
 <head>
 <title>Restaurant</title>
-<style>
-body{
-font-size: 16px;
-color: #fff;
-background-color: #51122f;
-}
+<link rel="stylesheet" type="text/css" href="style.css">
 </style>
 </head>
 </html>
