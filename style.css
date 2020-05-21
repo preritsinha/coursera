@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: #005544;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -11,37 +11,83 @@ body{
     border-radius: 0;
     border: 0;
 }
-#logo-img{
-    background: url('../images/restaurant-logo_large.png')no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
-}
-.navbar-brand{
-    padding-top: 25px;
-}
-.navbar-brand h1{ /*Restaurant name*/
+
+.navbar-brand h1{
     font-family: 'Lora', serif;
-    color: #557c3e;
+    color: rgb(24, 5, 94);
     font-size: 1.5em;
-    text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    text-shadow: 2px 2px 2px rgb(136, 143, 38);
     margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
+    margin-left: 10px;
     text-decoration: none;
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
+
+#collapsable-nav{
+    font-variant: small-caps;
+    text-align: center;
+}
+#men-1, #men-2, #men-3{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+
+/* Body */
+#body-header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sec {
+    border: 1px rgb(71, 5, 5);
+}
+#par-1{
+    height: 1000px;
+    background-color: maroon;   
+    box-shadow: 5px 5px 5px #888888;
+    margin: 30px 30px 30px;
+
+}
+#par-2{
+    height: 1000px;
+    background-color: blue;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 30px 30px 30px;
+}
+#par-3{
+    height: 1000px;
+    background-color: purple;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 30px 30px 30px;
+
+}
+#par-1-head{
+    position: relative;
+    top: 10px;    
+    text-align: center;
+    font: caption;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+#par-2-head{
+    position: relative;
+    top: 10px;    
+    text-align: center;
+    font: caption;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+#par-3-head{
+    position: relative;
+    top: 10px;    
+    text-align: center;
+    font: caption;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+#go-to{
     text-decoration: none;
-}
-.navbar-brand p{
-    /*Kosher cert*/
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
-}
-.navbar-brand p span{ /*Star-K*/
-    vertical-align: middle;
+    color: white;
+    margin-left: 30px;
 }
