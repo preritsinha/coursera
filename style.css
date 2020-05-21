@@ -66,7 +66,6 @@ body{
     position: relative;
     top: 10px;    
     text-align: center;
-    font-size: 1.5em;
     font: caption;
     font-weight: bold;
     font-variant: small-caps;
@@ -76,14 +75,12 @@ body{
     top: 10px;    
     text-align: center;
     font: caption;
-    font-size: 1.5em;
     font-weight: bold;
     font-variant: small-caps;
 }
 #par-3-head{
     position: relative;
     top: 10px;    
-    font-size: 1.5em;
     text-align: center;
     font: caption;
     font-weight: bold;
